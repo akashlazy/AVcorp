@@ -98,6 +98,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D19269B22D3CBBE0077618A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1DDEACDB22CA826C00066896 /* AboutCell.swift */,
+				1DE9475522D231DF0099C18A /* GalleryCell.swift */,
+				1D821F5E22D39C5400835ACA /* PortfolioCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1D19269C22D3CBE20077618A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1DDEACA422CA6B6500066896 /* ViewController.swift */,
+				1DDEACD322CA76CA00066896 /* HomeViewController.swift */,
+				1DDEACD522CA796500066896 /* GalleryViewController.swift */,
+				1DDEACD922CA810600066896 /* AboutViewController.swift */,
+				1DDEACDF22CBB1D900066896 /* AddNewsViewController.swift */,
+				1D821F5C22D39BD700835ACA /* PortfolioViewController.swift */,
+				1DDEACE122CBB1E600066896 /* NewsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		1D821F6022D3A76E00835ACA /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,18 +154,10 @@
 		1DDEACA122CA6B6500066896 /* avcorp */ = {
 			isa = PBXGroup;
 			children = (
+				1D19269C22D3CBE20077618A /* Controller */,
+				1D19269B22D3CBBE0077618A /* Cell */,
 				1D821F6022D3A76E00835ACA /* View */,
 				1DDEACA222CA6B6500066896 /* AppDelegate.swift */,
-				1DDEACA422CA6B6500066896 /* ViewController.swift */,
-				1DDEACD322CA76CA00066896 /* HomeViewController.swift */,
-				1DDEACD522CA796500066896 /* GalleryViewController.swift */,
-				1DDEACD922CA810600066896 /* AboutViewController.swift */,
-				1DDEACDF22CBB1D900066896 /* AddNewsViewController.swift */,
-				1D821F5C22D39BD700835ACA /* PortfolioViewController.swift */,
-				1DDEACDB22CA826C00066896 /* AboutCell.swift */,
-				1DE9475522D231DF0099C18A /* GalleryCell.swift */,
-				1D821F5E22D39C5400835ACA /* PortfolioCell.swift */,
-				1DDEACE122CBB1E600066896 /* NewsViewController.swift */,
 				1DDEACA622CA6B6500066896 /* Main.storyboard */,
 				1DDEACAC22CA6B6D00066896 /* Assets.xcassets */,
 				1DDEACAE22CA6B6D00066896 /* LaunchScreen.storyboard */,
